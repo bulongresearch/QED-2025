@@ -1,0 +1,2 @@
+condition,generation,acc_all,acc_head,acc_tail,diversity_entropy,median_surprisal_test,p10_surprisal_test,p90_surprisal_test,n_synth_filtered,synthetic_label_error
+D_control_real_only,0,0.7485,0.7717948717948718,0.6936241610738255,,0.478035800941387,0.1508228897334209,0.7874578600289889,0,
