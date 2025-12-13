@@ -339,8 +339,9 @@ if __name__ == "__main__":
 
     # 2) Baseline self-training: A/B/C, seeds 0–4
     base_conditions = ["A_no_filter", "B_high_surprisal", "C_goldilocks"]
-    seeds = [0, 1, 2, 3, 4]
+    seeds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
 
     for cond in base_conditions:
         for seed in seeds:
+
             run_condition_for_seed(cond, seed_id=seed, T_generations=20)
