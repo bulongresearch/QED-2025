@@ -512,7 +512,7 @@ def run_ensemble_naive_for_seed(
 
 
 if __name__ == "__main__":
-    seeds = [0, 1, 2, 3, 4]
+    seeds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
 
     # I: DEVS with diverse ensemble + unanimous + ACCUMULATION
     for s in seeds:
@@ -543,4 +543,5 @@ if __name__ == "__main__":
             T_generations=20,
             synth_per_gen=20000,
             max_synth_per_gen=5000,
+
         )
